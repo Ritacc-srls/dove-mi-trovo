@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dove sono oggi? - RITACC</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="logo-ritacc.png" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo-ritacc.png" alt="Logo RITACC" class="logo" />
+      <h1 id="title">Dove sono oggi?</h1>
+      <select id="languageSelect">
+        <option value="it">🇮🇹 Italiano</option>
+        <option value="en">🇬🇧 English</option>
+      </select>
+    </header>
+
+    <main>
+      <div id="map"></div>
+      <button id="navigateBtn">Naviga qui</button>
+    </main>
+
+    <footer>
+      <p>ⓒ RITACC SRLS – 2025</p>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

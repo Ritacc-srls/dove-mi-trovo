@@ -18,3 +18,4 @@
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=TUO_API_KEY&callback=initMap&libraries=places"></script>
 </body>
 </html>
+<img src="logo.png" alt="Logo Ritacc" style="width:150px; display:block; margin: 20px auto;">
